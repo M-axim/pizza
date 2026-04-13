@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -96,15 +98,15 @@ html {
 }
 
 #nprogress .bar {
-  @apply bg-primary !important;
+  @apply bg-primary;
 }
 
 #nprogress .peg {
-  @apply shadow-md shadow-primary !important;
+  @apply shadow-md shadow-primary;
 }
 
 #nprogress .spinner-icon {
-  @apply border-t-primary border-l-primary !important;
+  @apply border-t-primary border-l-primary;
 }
 
 @theme inline {
